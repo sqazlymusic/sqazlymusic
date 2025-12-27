@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link id="theme" rel="stylesheet" href="/styles/index.css">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800;900&display=swap" rel="stylesheet" crossorigin>
+<script src="/scripts/index.js" defer></script>
+<link rel="icon" href="/images/logo.png" type="image/png">
+<title>Sqazly Music</title>
+<meta name="description" content="SQAZLY Music — бесплатная дистрибуция музыки на 150+ площадок, продвижение релизов, TikTok, VK, Spotify, Apple Music. А также сведение, продвижение артистов, обложки и многое другое!">
+
+</head>
+<body>
+    <div id="preloader">
+        <div class="lights">
+            <img src="/images/logo_preloader.png" alt="SQAZLY" class="loader-logo">
+        </div>
+    </div>
+
+    <a href="#" class="nightModeButton dayModeButton"></a>
+
+    <div class="header">
+        <button class="logo"></button>
+        <!-- <div class="text-navigation">
+            <a class="getCons" href="https://auth.sqazlymusic.com/login?next=https://dashboard.sqazlymusic.com/account/oauth-login" target="_blank" rel="noopener noreferrer">Войти</a>
+            <a class="text-nav" href="#workWith">Кейсы</a>
+            <a class="text-nav" href="#ourServices">Услуги</a>
+            <a class="text-nav" href="#reviews">Отзывы</a>
+        </div> -->
+        <div class="img-navigation">
+            <a class="getCons" href="https://auth.sqazlymusic.com/login?next=https://dashboard.sqazlymusic.com/account/oauth-login" target="_blank" rel="noopener noreferrer">Войти</a>
+            <a href="https://vk.com/sqazlymusic" target="_blank" rel="noopener noreferrer"><button class="vkNavButton"></button></a>
+            <a href="https://www.tiktok.com/@sqazly_music" target="_blank" rel="noopener noreferrer"><button class="ttNavButton"></button></a>
+            <a href="https://t.me/sqazlymusiclabel" target="_blank" rel="noopener noreferrer"><button class="tgNavButton"></button></a>
+        </div>
+    </div>
+    <div class="blockForMobileHeader">
+        <div class="mobileHeader">
+            <a href="#" class="nightModeButtonMobile dayModeButtonMobile"></a>
+            <button class="menuButton" data-popup="popup12"></button>
+        </div>
+    </div>
+
+    <div class="blockUnderTopAction">
+        <div class="topAction">
+        <div class="leftContentForTopAction">
+            <div class="proofs">🎵 9 000+ релизов  ⭐️ 1 000+ отзывов  🌏 150+ площадок</div>
+            <div class="descriptionForTopAction">
+                <h1>Бесплатная дистрибуция на 150+ мировых
+                площадках — включая Яндекс.Музыку, VK Музыку,
+                Apple Music, Spotify, TikTok и YouTube— и
+                эффективное продвижение, чтобы ваша музыка
+                была услышана.</h1>
+            </div>
+            <div class="descriptionForTopActionMobile">
+                <b class="descriptionForTopActionMobileBold">Бесплатная дистрибуция на 150+
+                площадок, </b>включая Яндекс Музыку,
+                VK, Apple Music, Spotify и другие.
+                Помогаем продвинуть релиз и
+                собрать первые результаты.
+            </div>
+            <div class="buttonForTopAction">
+                <a href="https://auth.sqazlymusic.com/login?next=https://dashboard.sqazlymusic.com/account/oauth-login" target="_blank" rel="noopener noreferrer">
+                    <div class="textForButtonForTopAction">Личный кабинет</div>
+                </a>
+            </div>
+        </div>
+        <div class="rightContentForTopAction"></div>
+    </div>
+    </div>
+
+    <div class="workWith" id="workWith">
+        <div class="leadText">Мы работали с</div>
+        <div class="centerForWorkWith">
+            <div class="imagesLineForWorkWith">
+                <img src="/images/mot.png" alt="" class="artistImage" loading="lazy">
+                <img src="/images/mari.png" alt="" class="artistImage" id="artistImage" loading="lazy">
+                <img src="/images/badcurt.png" alt="" class="artistImage" id="artistImage2" loading="lazy">
+
+                <img src="/images/kambulat.png" alt="" class="artistImage2" id="artistImage3" loading="lazy">
+                <img src="/images/konfuz.png" alt="" class="artistImage2" id="artistImage4" loading="lazy">
+                <img src="/images/vspak.png" alt="" class="artistImage2" id="artistImage5" loading="lazy">
+            </div>
+            <div class="imagesLineForWorkWith2">
+                <img src="/images/kambulat.png" alt="" class="artistImage" id="displayNone" loading="lazy">
+                <img src="/images/konfuz.png" alt="" class="artistImage" id="displayNone" loading="lazy">
+                <img src="/images/vspak.png" alt="" class="artistImage" id="displayNone" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <div class="ourResults">
+        <div class="leadText">Наши результаты</div>
+        <div class="blockForOurResults">
+            <div class="resultCard" data-popup="popup9">
+                <div class="underResult" id="underResult1">🎧 7.6 млн прослушиваний<br>💰Бюджет 54 000 ₽</div>
+                <div class="result" id="result1"></div>
+            </div>
+            <div class="resultCard resultCardTop" data-popup="popup10">
+                <div class="underResult" id="underResult2">🎧 900 тыс прослушиваний<br>💰Бюджет 25 500 ₽</div>
+                <div class="result" id="result2"></div>
+            </div>
+            <div class="resultCard resultCardTop" data-popup="popup11">
+                <div class="underResult" id="underResult3">🎧 1.5 млн прослушиваний<br>💰Бюджет 15 000 ₽</div>
+                <div class="result" id="result3"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ourServices" id="ourServices">
+        <div class="leadText">Наши услуги</div>
+        <div class="slider">
+            <button class="arrow left"></button>
+
+            <div class="slides">
+                <img src="/images/distr.jpg" class="slide" data-popup="popup1" loading="lazy">
+                <img src="/images/promoInVK.jpg" class="slide" data-popup="popup2" loading="lazy">
+                <img src="/images/promoInTT.jpg" class="slide" data-popup="popup3" loading="lazy">
+                <img src="/images/mixAndMaster.jpg" class="slide" data-popup="popup4" loading="lazy">
+                <img src="/images/snippet.jpg" class="slide" data-popup="popup5" loading="lazy">
+                <img src="/images/coverForUrRelease.jpg" class="slide" data-popup="popup6" loading="lazy">
+                <img src="/images/playlists.jpg" class="slide" data-popup="popup7" loading="lazy">
+                <img src="/images/comunicate.jpg" class="slide" data-popup="popup8" loading="lazy">
+            </div>
+
+            <button class="arrow right"></button>
+            <button class="arrow right2"></button>
+        </div>
+    </div>
+
+    <div class="reviews" id="reviews">
+        <div class="leadText">Отзывы</div>
+        <div class="reviewsBlock">
+            <div class="review">
+                <img src="/images/larisaReviewer.png" alt="" class="reviewerImage" loading="lazy">
+                <div class="textForReview">
+                    <div class="reviewerName">Лариса Атапина</div>
+                    <div class="reviewText">
+                        Очень довольна работой SQAZLY Music. Моментально отвечают на сообщения, помогают во всём и не только с музыкой. Даже в том, что в их обязанности не входит. Ребята, спасибо вам. Я очень рада, что работаю с вами!
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <img src="/images/flowReviewer.png" alt="" class="reviewerImage" loading="lazy">
+                <div class="textForReview">
+                    <div class="reviewerName">Flow Ritchie</div>
+                    <div class="reviewText">
+                        Оперативно, чётко, огненно, вежливо, с добротой и потенциалом, сделали на не самый большой мой бюджет самый лучший мой результат,всем советую как дистрибуцию так и продвижение.
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <img src="/images/kirillReviewer.png" alt="" class="reviewerImage" loading="lazy">
+                <div class="textForReview">
+                    <div class="reviewerName">Кирилл Мисюрин</div>
+                    <div class="reviewText">
+                        Приятно работать с ребятами, за адекватный прайс подняли прослушивания, пробовал сведение, качество огонь, советую 🔥
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <img src="/images/danilReviewer.png" alt="" class="reviewerImage" loading="lazy">
+                <div class="textForReview">
+                    <div class="reviewerName">Danil Pavlovich</div>
+                    <div class="reviewText">
+                        Искал золото нашел алмаз! Парни даже за мою жизнь узнают, сами предложили мне сделать ремикс на трек, сами все сделали, это я еще молчу о продвижении треков, мой нафиг никому не нужный шлак послушало более 75к человек , спасибо парни еще раз!
+                    </div>
+                </div>
+            </div>
+            <div class="vkReviewsButton">
+                <a href="https://vk.com/reviews-205779043" target="_blank" rel="noopener noreferrer"><button class="vkReviews"></button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="leftFooter">
+            <div class="socialsFooter">
+                <a href="https://vk.com/sqazlymusic" target="_blank" rel="noopener noreferrer"><button class="vkFooter"></button></a>
+                <a href="https://www.tiktok.com/@sqazly_music" target="_blank" rel="noopener noreferrer"><button class="ttFooter"></button></a>
+                <a href="https://t.me/sqazlymusiclabel" target="_blank" rel="noopener noreferrer"><button class="tgFooter"></button></a>
+            </div>
+            <div class="footerSqazly">© 2025 SQAZLY MUSIC</div>
+            <div class="linksFooter">
+                <a href="/files/oferta.docx" class="linkFooter" target="_blank" rel="noopener noreferrer">Оферта </a>
+                <div class="space">_</div>
+                <div class="slash">|</div>
+                <div class="space">_</div>
+                <a href="/files/privacy_policy.docx" class="linkFooter" target="_blank" rel="noopener noreferrer">Политика</a>
+                <div class="space">_</div>
+                <div class="slash"> | </div>
+                <div class="space">_</div>
+                <a href="/files/Contacts.docx" class="linkFooter" target="_blank" rel="noopener noreferrer">Контакты</a>
+            </div>
+        </div>
+        <div class="rightFooter">
+            <a href="https://t.me/expicloud" target="_blank" rel="noopener noreferrer" class="expicloudLink">site by @expicloud</a>
+        </div>
+    </div>
+
+
+
+
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+            <div class="headerPopUp">
+                <span class="close"><img src="/images/exitButton.svg" alt="" class="exitButton">
+                </span>
+                <div class="popUpName">ДИСТРИБУЦИЯ + ПРОМО ПОДДЕРЖКА</div>
+            </div>
+            <div class="serviceBlock">
+                <div class="serviceImage" id="distrImage"></div>
+                <div class="serviceText">
+                    <div class="ServiceName">Почему SQAZLY Music?</div>
+                    <div class="serviceDescription">Бесплатная дистрибуция — вы получаете 80% с
+                    каждого стрима.<br><br>
+                    Промо-поддержка — отправляем лучшие треки
+                    редакторам площадок.<br><br>
+                    Прозрачные выплаты — отчёты каждый квартал,
+                    выплаты от 2500 ₽.<br><br>
+                    Юридическая защита — касаемся только
+                    цифровой дистрибуции, ваши права остаются
+                    за вами.<br><br>
+                    Надёжный партнёр — работаем через агрегатор
+                    ZVONKO Digital.
+                    </div>
+                </div>
+            </div>
+            <div class="dropTrackButtonBlock">
+                <a href="https://t.me/sqazlymusic_bot" target="_blank" rel="noopener noreferrer" class="dropTrackButton">Выпустить трек</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup2" class="popup">
+        <div class="popup-content">
+            <div class="headerPopUp">
+                <span class="close"><img src="/images/exitButton.svg" alt="" class="exitButton">
+                </span>
+                <div class="popUpName">ПРОДВИЖЕНИЕ В ВК</div>
+            </div>
+            <div class="serviceBlock">
+                <div class="serviceImage" id="promoImage"></div>
+                <div class="serviceText">
+                    <div class="ServiceName">Что входит в продвижение:</div>
+                    <div class="serviceDescription">
+                        • Подбор целевой аудитории;<br>
+                        • Индивидуальные рекламные кампании ВК;<br>
+                        • Использование всех форматов рекламы (посты,
+                        сторис, клипы, карусели);<br>
+                        • Разработка стратегии и целей кампании;<br>
+                        • Размещение в пользовательских плейлистах;<br>
+                        • Постоянная связь с артистом;<br>
+                        • Прозрачные отчёты по результатам.<br><br>
+                        <a href="https://vk.com/@sqazlymusic-prodvizhenie-artistov-sqazly-music" class="underlineLink">📈 Примеры кейсов</a>
+                        <br><br>
+                        <a href="https://vk.com/topic-205779043_47840430" class="underlineLink">💬 Отзывы артистов</a>
+                        <br><br>
+                        Эффективно. Прозрачно. Индивидуально.
+                    </div>
+                </div>
+            </div>
+            <div class="dropTrackButtonBlock">
+                <a href="https://t.me/sqazlymusic_help" target="_blank" rel="noopener noreferrer" class="dropTrackButton">Продвинуть релиз</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup3" class="popup">
+        <div class="popup-content">
+            <div class="headerPopUp">
+                <span class="close"><img src="/images/exitButton.svg" alt="" class="exitButton">
+                </span>
+                <div class="popUpName">ПРОДВИЖЕНИЕ В TIKTOK</div>
+            </div>
+            <div class="serviceBlock">
+                <div class="serviceImage" id="promoImage2"></div>
+                <div class="serviceText">
+                    <div class="ServiceName">Что входит в продвижение:</div>
+                    <div class="serviceDescription">
+                        Продвинем ваше творчество в Tik Tok с помощью посевов у блоггеров:<br><br>
+                        Минимальный бюджет: 5 000р
+                        Комиссия за работу 15%<br><br>
+                        Продвижение с помощью TikTok ADS:<br><br>
+                        Минимальный бюджет: 15 000р
+                        Комиссия за работу 30%<br><br>
+                        Стоимость просмотра зависит исключительно от материала
+                    </div>
+                </div>
+            </div>
+            <div class="dropTrackButtonBlock">
+                <a href="https://t.me/sqazlymusic_help" target="_blank" rel="noopener noreferrer" class="dropTrackButton">Продвинуть в TikTok</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup4" class="popup">
+        <div class="popup-content">
+            <div class="headerPopUp">
+                <span class="close"><img src="/images/exitButton.svg" alt="" class="exitButton">
+                </span>
+                <div class="popUpName">СВЕДЕНИЕ И МАСТЕРИНГ</div>
+            </div>
+            <div class="serviceBlock">
+                <div class="serviceImage" id="mixAndMasterImage"></div>
+                <div class="serviceText">
+                    <div class="ServiceName" id="MixAndMasterName">Цены на сведение и мастеринг:<br>• Standard — 3000 ₽ | PRO — 6000 ₽</div>
+                    <div class="serviceDescription" id="mixPlnDesc">
+                        <span class="mixPlanName">Standard</span><br>
+                        Сведение вокала и бита (WAV)<br>
+                        Мастеринг трека<br>
+                        До 3 правок<br>
+                        Постоянная связь с артистом
+                    </div>
+                    <div class="serviceDescription" id="mixPlnDesc">
+                        <span class="mixPlanName">PRO (дополнительно)</span><br>
+                        Саунд-дизайн и уникальные фишки<br>
+                        Безлимит правок<br>
+                        Trackout-сведение<br>
+                        Быстрая сдача<br>
+                        • Коррекция вокала включена
+                    </div>
+                    <div class="serviceDescription" id="mixPlnDescGrey">
+                        🔧 Дополнительные услуги:<br>
+                        • Коррекция вокала — 300 ₽<br>
+                        • Сведение бита — 300 ₽<br>
+                        • Правка — 100 ₽<br>
+                    </div>
+                    <div class="serviceDescription" id="portfolioMixAndMaster">
+                        <a href="https://vk.com/music/playlist/-192649517_8_c3c4f6a6200863ceab" class="underlineLink">Примеры работ</a>
+                    </div>
+                    <div class="serviceDescription" id="portfolioMixAndMaster">
+                        <a href="https://vk.com/topic-205779043_47840430" class="underlineLink">Отзывы артистов</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropTrackButtonBlock">
+                <a href="https://t.me/sqazlymusic_help" target="_blank" rel="noopener noreferrer" class="dropTrackButton">Заказать сведение</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup5" class="popup">
+        <div class="popup-content">
+            <div class="headerPopUp">
+                <span class="close"><img src="/images/exitButton.svg" alt="" class="exitButton">
+                </span>
+                <div class="popUpName">СНИППЕТ</div>
+            </div>
+            <div class="serviceBlock">
+                <div class="serviceImage" id="snippetImage"></div>
+                <div class="serviceText">
+                    <div class="ServiceName">🎬 Какие видео мы можем сделать для вашего релиза:</div>
+                    <div class="serviceDescription" id="snipetDescription">
+                        Сниппет (15 сек) с текстом<br>
+                        Цена: 500 ₽<br>
+                        <a href="https://vkvideo.ru/video-205779043_456239248" class="underlineLink">Пример</a><br><br>
+                        Видео для сторис (15 сек)<br>
+                        — с обложкой и анимацией<br>
+                        Цена: 500 ₽<br>
+                        <a href="https://disk.yandex.ru/d/1Kqk8b6ebZn8Jw" class="underlineLink">Пример</a>
+                        <br><br>
+                        Аниме-эдит<br>
+                        — монтаж под ваш трек, динамичная<br>нарезка из аниме<br>
+                        Цена: 160 ₽ за секунду (например,<br>20 сек = 3200 ₽)<br>
+                        <a href="https://vk.com/video/playlist/-205779043_3" class="underlineLink">Примеры</a>
+                        <br><br>
+                        Монтаж клипа<br>
+                        Цена: договорная (обсуждается индивидуально)<br>
+                    </div>
+                </div>
+            </div>
+            <div class="dropTrackButtonBlock">
+                <a href="https://t.me/sqazlymusic_help" target="_blank" rel="noopener noreferrer" class="dropTrackButton">Заказать сниппет</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup6" class="popup">
+        <div class="popup-content">
+            <div class="headerPopUp">
+                <span class="close"><img src="/images/exitButton.svg" alt="" class="exitButton">
+                </span>
+                <div class="popUpName">ОБЛОЖКА</div>
+            </div>
+            <div class="serviceBlock">
+                <div class="serviceImage" id="coverImage"></div>
+                <div class="serviceText">
+                    <div class="ServiceName">ОБЛОЖКА ДЛЯ ВАШЕГО РЕЛИЗА</div>
+                    <div class="serviceDescription">
+                        Стоимость работы 2000р<br><br>
+                        Работаем исключительно по предоплате!<br><br>
+                        <a href="https://vk.com/topic-205779043_47840430" class="underlineLink">Наши отзывы</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropTrackButtonBlock">
+                <a href="https://t.me/sqazlymusic_help" target="_blank" rel="noopener noreferrer" class="dropTrackButton">Заказать обложку</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup7" class="popup">
+        <div class="popup-content">
+            <div class="headerPopUp">
+                <span class="close"><img src="/images/exitButton.svg" alt="" class="exitButton">
+                </span>
+                <div class="popUpName">РАЗМЕЩЕНИЕ В ПЛЕЙЛИСТАХ</div>
+            </div>
+            <div class="serviceBlock">
+                <div class="serviceImage" id="plailistsImage"></div>
+                <div class="serviceText">
+                    <div class="ServiceName">Продвинем ваше творчество в Spotify путём составления индивидуальных сборок пользовательских плейлистов.</div>
+                    <div class="serviceDescription" id="playlistDescr">
+                        Трафик идёт со стран СНГ, Европы и Запада.<br><br>
+                        Средняя цена за прослушивание зависит от качества материала. В среднем от 50 копеек до 1 рубля.<br><br>
+                        Прайс:<br>
+                        • 1000р с бюджетом от 1000 до 3000р
+                        • 2000р с бюджетом от 4000р до 5000р
+                        • 3000р с бюджетом от 6000р до 10000р<br><br>
+                        Чтобы получить полную информацию пишите в личные сообщения<br><br>
+                        <a href="https://vk.com/topic-205779043_47840430" class="underlineLink">Наши отзывы</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropTrackButtonBlock">
+                <a href="https://t.me/sqazlymusic_help" target="_blank" rel="noopener noreferrer" class="dropTrackButton">Разместить песню</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup8" class="popup">
+        <div class="popup-content">
+            <div class="headerPopUp">
+                <span class="close"><img src="/images/exitButton.svg" alt="" class="exitButton">
+                </span>
+                <div class="popUpName">СОТРУДНИЧЕСТВО</div>
+            </div>
+            <div class="serviceBlock">
+                <div class="serviceImage" id="communicateImage"></div>
+                <div class="serviceText">
+                    <div class="serviceDescription" id="communicateServiceDesc">
+                        Эта форма предназначена для артистов, менеджеров и музыкальных лейблов, которые хотят подключиться к нашей экосистеме или получить личный кабинет.<br><br>
+                        Что даёт сотрудничество со SQAZLY Music:<br><br>
+                        1. Дистрибуция на 66+ цифровых площадок (ВК, Яндекс Музыка, Spotify, Apple Music, YouTube Music).<br>
+                        2. Создание личных кабинетов (Zvonko Digital)<br>
+                        3. Выплаты до 80% дохода. Точный процент зависит от объёма каталога и количества стримов.<br>
+                        4. Быстрая доставка релизов — 2–3 рабочих дня.<br>
+                        5. Поддержка текстов и караоке на всех основных платформах.<br>
+                        6. Приоритетная промо-поддержка: VK плейлистинг, Яндекс Музыка, Звук, МТС, YouTube Music.<br>
+                        7. Собственный лендинг под каталоги артистов (аналог BandLink).<br>
+                        8. Оперативная поддержка и сопровождающий менеджер.<br><br>
+                        SQAZLY Music предоставляет современные маркетинговые инструменты для артистов, лейблов и музыкальных компаний.<br><br>
+                        Возможности продвижения:<br><br>
+                        1. Плейлистинг (ВК, Spotify).<br>
+                        2. TikTok-кампании (сетки, креаторы, UGC-контент).<br>
+                        3. Таргетированная реклама (ВК, TikTok).<br>
+                        4. Видео-сниппеты и промо-контент для соцсетей.<br><br>
+                        Продвижение подбирается индивидуально под задачи артиста, лейбла или проекта.<br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="dropTrackButtonBlock">
+                <button class="dropTrackButton"><a href="https://forms.gle/D2jqRGQDHGxiynae6" class="startCommunicate">Начать сотрудничество</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup9" class="popup popup2">
+        <div class="popup-content2">
+            <div class="headerPopUp">
+                <span class="close"><img src="/images/exitButton.svg" alt="" class="exitButton">
+                </span>
+                <div class="popUpName">ПРОДВИЖЕНИЕ</div>
+            </div>
+            <img src="/images/fcase.jpg" alt="" class="case">
+            <div class="dropTrackButtonBlock">
+                <a href="https://t.me/sqazlymusic_help" target="_blank" rel="noopener noreferrer" class="dropTrackButton">Продвинуть релиз</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup10" class="popup popup2">
+        <div class="popup-content2">
+            <div class="headerPopUp">
+                <span class="close"><img src="/images/exitButton.svg" alt="" class="exitButton">
+                </span>
+                <div class="popUpName">ПРОДВИЖЕНИЕ В ВК</div>
+            </div>
+            <img src="/images/scase.jpg" alt="" class="case">
+            <div class="dropTrackButtonBlock">
+                <a href="https://t.me/sqazlymusic_help" target="_blank" rel="noopener noreferrer" class="dropTrackButton">Продвинуть релиз</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup11" class="popup popup2">
+        <div class="popup-content2">
+            <div class="headerPopUp">
+                <span class="close"><img src="/images/exitButton.svg" alt="" class="exitButton">
+                </span>
+                <div class="popUpName">ПРОДВИЖЕНИЕ В TIKTOK</div>
+            </div>
+            <img src="/images/tcase.jpg" alt="" class="case">
+            <div class="dropTrackButtonBlock">
+                <a href="https://t.me/sqazlymusic_help" target="_blank" rel="noopener noreferrer" class="dropTrackButton">Продвинуть релиз</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup12" class="popup popup2">
+        <div class="menuContent">
+            <div class="menuToRight">
+                    <span class="close closeMenu"><img src="/images/menuIcon2.svg" alt="" class="closeMenuButton">
+                    </span>
+            </div>
+            <div class="menuStrButton">
+                <a href="https://dashboard.sqazlymusic.com/" target="_blank" rel="noopener noreferrer" class="menuButtons menuButtonGetCons menuButtonCloseMenu2">Войти</a>
+            </div>
+            <div class="menuStr">
+                <a href="https://vk.com/sqazlymusic" target="_blank" rel="noopener noreferrer"><button class="vkNavButton vkNavButton2"></button></a>
+                <a href="https://www.tiktok.com/@sqazly_music" target="_blank" rel="noopener noreferrer"><button class="ttNavButton ttNavButton2"></button></a>
+                <a href="https://t.me/sqazlymusiclabel" target="_blank" rel="noopener noreferrer"><button class="tgNavButton tgNavButton2"></button></a>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
